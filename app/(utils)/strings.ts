@@ -13,6 +13,22 @@ const strings = {
       REDIRECT: "/blog",
     },
   ],
+  SIDEBAR: [
+    {
+      TITLE: "Começando Com Next",
+      REDIRECT: "/docs",
+      OPTIONS: [
+        {
+          NAME: "Instalação",
+          REDIRECT: "/docs/installation",
+        },
+        {
+          NAME: "Estrutura do Projeto",
+          REDIRECT: "/docs/project-structure",
+        },
+      ],
+    },
+  ],
 };
 
 export default strings;
